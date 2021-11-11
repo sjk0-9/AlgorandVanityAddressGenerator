@@ -3,7 +3,7 @@
 A simple vanity address generator for the Algorand blockchain.
 
 Computes thousands of addresses every second and searches them for a desired set of starting characters.
-On my 6 year old MacBook Pro I was able to compute 60-70k addresses a second.
+On my 5 year old MacBook Pro I was able to compute 60-70k addresses a second.
 
 For example:
 
