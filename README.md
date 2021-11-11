@@ -64,13 +64,13 @@ Prerequisites:
 Open your terminal and clone this repository
 
 ```bash
-TODO
+git clone https://github.com/sjk0-9/AlgorandVanityAddressGenerator.git
 ```
 
 Enter it, create the required local environment and install the required libraries:
 
 ```bash
-cd TODO
+cd AlgorandVanityAddressGenerator
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
@@ -128,7 +128,7 @@ The longer the START you're looking for is, the longer it takes to find.
 The following is a rough calculation of the average number of addresses that need to be searched depending on the length of the address.
 
 | Length | Addresses to search | Rough time on my laptop |
-| ------ | ------------------- | ----------------------- |
+| ------:| -------------------:| ----------------------- |
 |   1    |   16                |      < 1 seconds               |
 |   2    |   512               |      < 1 seconds               |
 |   3    |   16,384            |      < 1 seconds               |
