@@ -128,9 +128,9 @@ The following is a rough calculation of the average number of addresses that nee
 
 | Length | Addresses to search | Rough time on my laptop |
 | ------:| -------------------:| ----------------------- |
-|   1    |   16                |      < 1 seconds        |
-|   2    |   512               |      < 1 seconds        |
-|   3    |   16,384            |      < 1 seconds        |
+|   1    |   16                |      < 1 second         |
+|   2    |   512               |      < 1 second         |
+|   3    |   16,384            |      < 1 second         |
 |   4    |   524,288           |      ~ 9 seconds        |
 |   5    |   16,777,216        |      ~ 4.5 minutes      |
 |   6    |   536,870,912       |      ~ 2.5 hours        |
@@ -138,7 +138,7 @@ The following is a rough calculation of the average number of addresses that nee
 |   8    |   549 billion       |      ~ 106 days         |
 |  54    |   948 quinvigintillion^ | ~ 38 octodecillion^ lifetimes of the universe |
 
-^That's the name for these numbers according to https://decimal.info/. I don't know what kind of authority they are, but they're a better authority than me, so that's what I'm calling them.
+^That's the name for these numbers according to https://decimal.info/. I don't know what kind of authority they are, but they're clearly a better authority than I am.
 
 ## How trustworthy is this
 
