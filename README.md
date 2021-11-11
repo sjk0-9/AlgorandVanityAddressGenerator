@@ -138,7 +138,8 @@ The following is a rough calculation of the average number of addresses that nee
 |   8    |   549 billion       |      ~ 106 days         |
 |  54    |   948 quinvigintillion^ | ~ 38 octodecillion^ lifetimes of the universe |
 
-^That's the name for these numbers according to https://decimal.info/, so that's what I'll go with.
+^That's the name for these numbers according to https://decimal.info/. I don't know what kind of authority they are, but they're a better authority than me, so that's what I'm calling them.
+
 ## How trustworthy is this
 
 Good question.
