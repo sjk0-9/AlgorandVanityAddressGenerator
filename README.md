@@ -115,8 +115,7 @@ There are a few optional parameters:
   Print out the instructions.
 
 As it runs, it will display the total number of addresses checked and a rough estimate of how many addresses it's processing per second.
-
-It will print the address as the 
+It will print the address as each is discovered.
 
 It writes to the output file as it goes (occasionally producing temporary files to reduce risk of file corruption).
 
@@ -129,16 +128,17 @@ The following is a rough calculation of the average number of addresses that nee
 
 | Length | Addresses to search | Rough time on my laptop |
 | ------:| -------------------:| ----------------------- |
-|   1    |   16                |      < 1 seconds               |
-|   2    |   512               |      < 1 seconds               |
-|   3    |   16,384            |      < 1 seconds               |
-|   4    |   524,288           |      ~ 9 seconds               |
-|   5    |   16,777,216           |      ~ 4.5 minutes               |
-|   6    |   536,870,912       |      ~ 2.5 hours |
-|   7    |   17 billion        |      ~ 80 hours |
-|   8    |   549 billion       |      ~ 106 days |
-|  54    |   948 quinvigintillion | ~ 38 octodecillion lifetimes of the universe |
+|   1    |   16                |      < 1 seconds        |
+|   2    |   512               |      < 1 seconds        |
+|   3    |   16,384            |      < 1 seconds        |
+|   4    |   524,288           |      ~ 9 seconds        |
+|   5    |   16,777,216        |      ~ 4.5 minutes      |
+|   6    |   536,870,912       |      ~ 2.5 hours        |
+|   7    |   17 billion        |      ~ 80 hours         |
+|   8    |   549 billion       |      ~ 106 days         |
+|  54    |   948 quinvigintillion^ | ~ 38 octodecillion^ lifetimes of the universe |
 
+^That's the name for these numbers according to https://decimal.info/, so that's what I'll go with.
 ## How trustworthy is this
 
 Good question.
@@ -167,3 +167,5 @@ If you have a little bit of developer know-how, you can also re-key using `goal`
 ## Contact details
 
 Twitter: [SJK](https://twitter.com/sjk0_9)
+
+Tips: `TIPSHMFBDAOOKNCUO2GW6HFONVUWXCZKCGDNU3JINHQL2UWPIOOOARAVKE`

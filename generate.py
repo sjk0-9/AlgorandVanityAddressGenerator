@@ -145,7 +145,8 @@ def write_to_json(item, output):
 
         # Write the new list to a temporarty file so we don't corrupt the
         # original in the event of a crash or interrupt
-        temp_output = 'temp-{}'.format(output)
+        directory, file = os.path.split(output)
+        temp_output = os.path.join(directory, 'temp-{}'.format(file))
         with open(temp_output, 'w') as f:
             json.dump(all_items, f, indent=2)
 
